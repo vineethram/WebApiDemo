@@ -164,6 +164,7 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\SampleDirection.cs" />
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
+    <Compile Include="Controllers\AsyncDemoController.cs" />
     <Compile Include="Controllers\DemoDelegatesController.cs" />
     <Compile Include="Controllers\DependancyInjectionController.cs" />
     <Compile Include="Controllers\DesignPatternController.cs" />
@@ -178,11 +179,14 @@
     <Compile Include="Models\BaseClass.cs" />
     <Compile Include="Models\BaseClassCtorDemo.cs" />
     <Compile Include="Models\CardFactory.cs" />
+    <Compile Include="Models\Collections.cs" />
+    <Compile Include="Models\ConstructorInjection.cs" />
     <Compile Include="Models\CreditCard.cs" />
     <Compile Include="Models\DemoDelegate.cs" />
     <Compile Include="Models\DerivedClass.cs" />
     <Compile Include="Models\DerivedClassCtorDemo.cs" />
     <Compile Include="Models\Employee.cs" />
+    <Compile Include="Models\MethodInjection.cs" />
     <Compile Include="Models\MoneyBackCreditCard.cs" />
     <Compile Include="Models\MoneyBackFactory.cs" />
     <Compile Include="Models\PlatinumCreditCard.cs" />
