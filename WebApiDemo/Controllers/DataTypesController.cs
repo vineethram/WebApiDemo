@@ -18,7 +18,7 @@ namespace WebApiDemo.Controllers
 
             var s = "This is is an Example for String";
 
-           foreach(var item in s.Split())
+            foreach (var item in s.Split())
             {
                 output.Add(item);
                 output1.Add(item);
@@ -28,7 +28,7 @@ namespace WebApiDemo.Controllers
             output.Sort();
 
             var isConsecutive = false;
-            for (var i = 0; i < output.Count-1; i++)
+            for (var i = 0; i < output.Count - 1; i++)
             {
                 if (output[i] == output[i + 1])
                 {
@@ -47,8 +47,8 @@ namespace WebApiDemo.Controllers
         {
             var output = new List<int>();
 
-            List<int> s = new List<int>{ 1,5,2,0,9,10,4,2};
-            foreach(var item in s)
+            List<int> s = new List<int> { 1, 5, 2, 0, 9, 10, 4, 2 };
+            foreach (var item in s)
             {
                 output.Add(item);
             }
@@ -56,9 +56,9 @@ namespace WebApiDemo.Controllers
             output.Sort();
 
             var isConsecutive = false;
-            for (var i = 0; i < output.Count-1; i++)
+            for (var i = 0; i < output.Count - 1; i++)
             {
-                if (output[i] == output[i +1])
+                if (output[i] == output[i + 1])
                 {
                     isConsecutive = true;
                     break;
@@ -81,7 +81,35 @@ namespace WebApiDemo.Controllers
                 }
             }
 
-         return output;
+            return output;
+        }
+
+        
+
+        enum Months
+        {
+            January,    // 0
+            February,   // 1
+            March = 6,    // 6
+            April,      // 7
+            May,        // 8
+            June,       // 9
+            July        // 10
+        }
+
+        [Route("api/datatypes/demogetEnums")]
+        [HttpGet]
+
+        public Dictionary<string,int> DemoGetEnums()
+        {
+            var output = new Dictionary<string,int>();
+            var myNum = (int)Months.April;
+            var myMonth = Months.April.ToString();
+            output.Add(myMonth, myNum);
+            
+            //output.Add(myNum);       
+            
+            return output;
         }
     }
 }
