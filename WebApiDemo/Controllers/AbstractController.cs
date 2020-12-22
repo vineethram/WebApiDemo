@@ -15,11 +15,15 @@ namespace WebApiDemo.Controllers
             var output = new Dictionary<string, string>();
 
             var obj = new DemoDerivedClass();
-            //var obj1 = new AbstractDemo();
+            var obj1 = new demoDerivedClass();
 
-            output.Add("Message from Derived Class", obj.demoAbstract());
+            output.Add("Message from Derived Class of abstract Class", obj.demoAbstract());
+            output.Add("Message from Derived Class of Interface Class", obj1.InterfaceDemo());
+
 
             return output;
         }
+
+        
     }
 }

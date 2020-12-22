@@ -15,4 +15,12 @@ namespace WebApiDemo.Models
                  
         }
     }
+
+    public class demoDerivedClass : InterfaceDemo
+    {
+        public string InterfaceDemo()
+        {
+            return "interface method implmented";
+        }
+    }
 }

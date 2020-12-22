@@ -177,6 +177,7 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\LinqtoObjectController.cs" />
     <Compile Include="Controllers\OverloadsController.cs" />
+    <Compile Include="Controllers\OverrideController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -194,6 +195,7 @@
     <Compile Include="Models\DerivedClass.cs" />
     <Compile Include="Models\DerivedClassCtorDemo.cs" />
     <Compile Include="Models\Employee.cs" />
+    <Compile Include="Models\InterfaceDemo.cs" />
     <Compile Include="Models\MethodInjection.cs" />
     <Compile Include="Models\MoneyBackCreditCard.cs" />
     <Compile Include="Models\MoneyBackFactory.cs" />
