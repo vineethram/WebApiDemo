@@ -164,6 +164,7 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\SampleDirection.cs" />
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
+    <Compile Include="Controllers\AbstractController.cs" />
     <Compile Include="Controllers\AsyncDemoController.cs" />
     <Compile Include="Controllers\DataTypesController.cs" />
     <Compile Include="Controllers\DemoCollectionsController.cs" />
@@ -175,10 +176,12 @@
     <Compile Include="Controllers\ExtentionMethodController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\LinqtoObjectController.cs" />
+    <Compile Include="Controllers\OverloadsController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\AbstractDemo.cs" />
     <Compile Include="Models\BaseClass.cs" />
     <Compile Include="Models\BaseClassCtorDemo.cs" />
     <Compile Include="Models\CardFactory.cs" />
@@ -186,6 +189,7 @@
     <Compile Include="Models\ConstructorInjection.cs" />
     <Compile Include="Models\CreditCard.cs" />
     <Compile Include="Models\DemoDelegate.cs" />
+    <Compile Include="Models\DemoDerivedClass.cs" />
     <Compile Include="Models\DemoExtention.cs" />
     <Compile Include="Models\DerivedClass.cs" />
     <Compile Include="Models\DerivedClassCtorDemo.cs" />
@@ -193,6 +197,7 @@
     <Compile Include="Models\MethodInjection.cs" />
     <Compile Include="Models\MoneyBackCreditCard.cs" />
     <Compile Include="Models\MoneyBackFactory.cs" />
+    <Compile Include="Models\Overload.cs" />
     <Compile Include="Models\PlatinumCreditCard.cs" />
     <Compile Include="Models\PlatinumFactory.cs" />
     <Compile Include="Models\TitaniumCreditCard.cs" />
