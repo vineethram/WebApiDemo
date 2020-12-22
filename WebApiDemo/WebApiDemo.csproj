@@ -183,8 +183,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AbstractDemo.cs" />
-    <Compile Include="Models\BaseClass.cs" />
-    <Compile Include="Models\BaseClassCtorDemo.cs" />
+    <Compile Include="Models\baseClass.cs" />
     <Compile Include="Models\CardFactory.cs" />
     <Compile Include="Models\Collections.cs" />
     <Compile Include="Models\ConstructorInjection.cs" />
@@ -192,8 +191,7 @@
     <Compile Include="Models\DemoDelegate.cs" />
     <Compile Include="Models\DemoDerivedClass.cs" />
     <Compile Include="Models\DemoExtention.cs" />
-    <Compile Include="Models\DerivedClass.cs" />
-    <Compile Include="Models\DerivedClassCtorDemo.cs" />
+    <Compile Include="Models\derivedClass.cs" />
     <Compile Include="Models\Employee.cs" />
     <Compile Include="Models\InterfaceDemo.cs" />
     <Compile Include="Models\MethodInjection.cs" />

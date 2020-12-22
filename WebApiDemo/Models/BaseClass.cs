@@ -1,12 +1,15 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
 
-namespace LinQtoObject
+namespace WebApiDemo.Models
 {
-    public class BaseClass
+    public class baseClass
     {
-        public virtual void displayClass()
+        public virtual string show()
         {
-            Console.WriteLine("This is from the Base Class");
+            return "Base Class";
         }
     }
 }

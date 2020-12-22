@@ -1,15 +1,15 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
 
-namespace LinQtoObject
+namespace WebApiDemo.Models
 {
-    public class DerivedClass : BaseClass
+    public class derivedClass : baseClass
     {
-        public override void displayClass()
+        public override string show()
         {
-            Console.WriteLine();
-            Console.WriteLine("Show use of \'base\' keyword");
-            base.displayClass();
-            Console.WriteLine("This is from the Derived Class ");
+            return "derived class";
         }
     }
 }
