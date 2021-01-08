@@ -24,6 +24,7 @@ namespace WebApiDemo.Controllers
                 logger.Error(ex.Message);
             }
             return new string[] { "value1", "value2" };
+            //Just a demo
         }
     }
 }
